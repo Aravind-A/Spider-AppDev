@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Task</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_map">Map</string>
-    <string name="about">This is a task app for Spider AppDev Laterals.\n\nChoose a category and see the available places of that category in a map.\n\nSearch for a place of that category using the search bar and also get directions </string>
-</resources>
