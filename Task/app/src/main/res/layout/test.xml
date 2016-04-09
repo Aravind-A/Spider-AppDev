@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <fragment xmlns:android=
+        "http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search"
+            android:hint="Search Box"
+            android:layout_weight="0.9"
+            android:background="#ffffff"
+            android:backgroundTint="#fbf8f8"
+            android:focusable="true"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search_icon"
+            android:layout_weight="4.5"
+            android:src="@drawable/ic_search_black_24dp"
+            android:onClick="searchClicked"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:alpha="0.5" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW DIRECTIONS"
+        android:id="@+id/dirButton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:onClick="getDirections"
+        android:background="#7e7c7c"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/categoryName"
+        android:layout_alignBottom="@+id/dirButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/dirButton"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+</RelativeLayout>
