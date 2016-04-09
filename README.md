@@ -1,5 +1,5 @@
 # Spider-AppDev-Laterals
 
-Task app apk URL :	https://github.com/Aravind-A/Spider-AppDev-Laterals/tree/master/Task/app/app-release.apk
+Task app apk URL :	https://drive.google.com/open?id=0B5mCXUmmMPCAbk4xdHI1ZjZSNEk
 
 
